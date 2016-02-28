@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- 最后一个按钮点击时的状态 -->
+    <item android:drawable="@drawable/ashen_bg" android:state_pressed="true"></item>
+    <!-- 最后一个按钮默认时的状态 -->
+	<item android:drawable="@drawable/orange_bg"></item>
+</selector>

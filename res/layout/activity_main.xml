@@ -1,0 +1,329 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+    android:background="@color/black" 
+    android:orientation="vertical"
+>
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="right|bottom"
+        android:editable="false"
+	    android:layout_width="fill_parent"
+	    android:layout_height="70dp"
+	    android:id="@+id/et_input"
+	    android:background="@drawable/gray_bg"
+	/>  
+	
+    <!-- 第一行开始 -->
+    <LinearLayout 
+        android:layout_marginTop="15dp"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"  
+    	android:orientation="horizontal"  
+    	android:gravity="center"
+    >
+        <Button 
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_c"
+        	android:layout_width="70dp"    
+        	android:layout_height="70dp"
+        	android:text="C"
+        	android:gravity="right|bottom"
+        	android:background="@drawable/white_selector"
+        	android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+        />
+
+        <Button
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_del"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="DEL"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+          />
+
+        <Button
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_divide"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="/"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+             />
+
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/btn_multiply"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="*"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+             />
+
+    </LinearLayout>
+    <!-- 第一行开始 -->
+    
+    <!-- 第二行开始 -->
+    <LinearLayout 
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"  
+    	android:orientation="horizontal"  
+    >
+        <Button 
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_7"
+        	android:layout_width="70dp"    
+        	android:layout_height="70dp"
+        	android:text="7"
+        	android:gravity="right|bottom"
+        	android:background="@drawable/white_selector"
+        	android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+        />
+
+        <Button
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_8"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="8"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+          />
+
+        <Button
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_9"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="9"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+             />
+
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/btn_subtract"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="-"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+             />
+
+    </LinearLayout>
+	<!-- 第二行结束 -->
+	
+	<!-- 第三行开始 -->
+    <LinearLayout 
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"  
+    	android:orientation="horizontal"  
+    >
+        <Button 
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_4"
+        	android:layout_width="70dp"    
+        	android:layout_height="70dp"
+        	android:text="4"
+        	android:gravity="right|bottom"
+        	android:background="@drawable/white_selector"
+        	android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+        />
+
+        <Button
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_5"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="5"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+          />
+
+        <Button
+            android:textSize="20sp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/btn_6"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="6"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+             />
+
+        <Button
+            android:textSize="20sp"
+            android:id="@+id/btn_addition"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:text="+"
+            android:gravity="right|bottom"
+            android:background="@drawable/white_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+             />
+
+    </LinearLayout>
+	<!-- 第三行结束 -->
+	
+	<!-- 第四行开始 第四行包括四五两小行-->
+    <LinearLayout 
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"   
+    	android:layout_marginTop="10dp"
+        android:gravity="center" 
+        android:orientation="horizontal"
+    >
+        
+     	<!-- 前面一部分开始 是一个垂直方向的LinearLayout -->   
+     	<LinearLayout 
+	    	android:layout_width="wrap_content"
+	    	android:layout_height="wrap_content"   
+	        android:orientation="vertical"
+	        android:gravity="center"
+	    >
+	    	<!-- 第四小行 开始 -->
+	    	<LinearLayout 
+	    	    android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal"
+	    		android:gravity="center"
+	    	>
+	    	    <Button
+		            android:textSize="20sp"
+		            android:layout_marginRight="10dp"
+		            android:id="@+id/btn_1"
+		            android:layout_width="70dp"
+		            android:layout_height="70dp"
+		            android:text="1"
+		            android:gravity="right|bottom"
+		            android:background="@drawable/white_selector"
+		            android:paddingRight="10dp"
+        			android:paddingBottom="10dp"
+		             />
+		
+		        <Button
+		            android:textSize="20sp"
+		            android:id="@+id/btn_2"
+		            android:layout_width="70dp"
+		            android:layout_height="70dp"
+		            android:text="2"
+		            android:gravity="right|bottom"
+		            android:layout_marginRight="10dp"
+		            android:background="@drawable/white_selector"
+		            android:paddingRight="10dp"
+        			android:paddingBottom="10dp"
+		             />
+		        <Button
+		            android:textSize="20sp"
+		            android:id="@+id/btn_3"
+		            android:layout_width="70dp"
+		            android:layout_height="70dp"
+		            android:text="3"
+		            android:gravity="right|bottom"
+		            android:layout_marginRight="10dp"
+		            android:background="@drawable/white_selector"
+		            android:paddingRight="10dp"
+        			android:paddingBottom="10dp"
+		             />
+	    	</LinearLayout>
+	    	<!-- 第四小行 结束 -->
+	    	<!-- 第五小行 开始 -->
+	    	<LinearLayout 
+	    	    android:layout_width="wrap_content"
+	    		android:layout_height="wrap_content"
+	    		android:orientation="horizontal"
+	    		android:gravity="center"
+	    		android:layout_marginTop="10dp"
+	    	>
+	    	    <Button
+		            android:textSize="20sp"
+		            android:layout_marginRight="10dp"
+		            android:id="@+id/btn_0"
+		            android:layout_width="150dp"
+		            android:layout_height="70dp"
+		            android:text="0"
+		            android:gravity="right|bottom"
+		            android:layout_weight="1"
+		            android:background="@drawable/white_selector"
+		            android:paddingRight="10dp"
+        			android:paddingBottom="10dp"
+		             />
+		
+		        <Button
+		            android:textSize="20sp"
+		            android:id="@+id/btn_dot"
+		            android:layout_width="70dp"
+		            android:layout_height="70dp"
+		            android:text="."
+		            android:gravity="right|bottom"
+		            android:layout_weight="1"
+		            android:layout_marginRight="10dp"
+		            android:background="@drawable/white_selector"
+		            android:paddingRight="10dp"
+        			android:paddingBottom="10dp"
+		             />
+	    	</LinearLayout>
+	    	<!-- 第五小行 结束 -->
+	    </LinearLayout>
+	    <!-- 前面一部分结束 -->
+	    
+	    <!-- 后面只有一个按钮 开始 -->
+	    <Button 
+	    	android:layout_width="70dp"
+	    	android:layout_height="150dp"
+	    	android:textSize="20sp"
+            android:id="@+id/btn_equal"
+            android:text="="
+            android:gravity="right|bottom"    
+            android:background="@drawable/orange_selector"
+            android:paddingRight="10dp"
+        	android:paddingBottom="10dp"
+	    />
+	    <!-- 后面只有一个按钮 结束-->
+	    
+    </LinearLayout>
+	<!-- 第四行结束 第四行包括四五两小行 -->
+    
+    
+
+</LinearLayout>
